@@ -6,13 +6,13 @@ RSpec tagging.
 
 ## Installation
 
-1. Add the 'jasmine-focused.js' script *after* jasmine.js script and before you
+1. Add the 'jasmine-focus.js' script *after* jasmine.js script and before you
 include the boot.js file:
 
 ```
   <script type="text/javascript" src="lib/jasmine-2.0.0/jasmine.js"></script>
   <script type="text/javascript" src="lib/jasmine-2.0.0/jasmine-html.js"></script>
-  <script type="text/javascript" src="../jasmine-focused.js"></script>
+  <script type="text/javascript" src="../jasmine-focus.js"></script>
   <script type="text/javascript" src="lib/jasmine-2.0.0/boot.js"></script>
 ```
 
