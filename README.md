@@ -26,7 +26,7 @@ Suites and specs can be tagged in one of two ways:
 
 1. By using the `fdescribe` and `fit` methods instead of regular `describe` and
    `fit`
-2. By adding a { focus: true } object as second argument to regular `describe`
+2. By adding a `{ focus: true }` object as second argument to regular `describe`
    or `it` function calls.
 
 ```
@@ -72,7 +72,7 @@ Suites and specs can be tagged in one of two ways:
 
 ## Example Application
 
-Open /example/SpecRunner.html in a web browser to see an example based on the
+Open `/example/SpecRunner.html` in a web browser to see an example based on the
 Jasmine 2.0 standalone distribution.
 
 ## Similar Work
