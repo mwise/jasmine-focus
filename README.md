@@ -72,6 +72,11 @@ Suites and specs can be tagged in one of two ways:
   });
 ```
 
+## Example Application
+
+Open /example/SpecRunner.html in a web browser to see an example based on the
+Jasmine 2.0 standalone distribution.
+
 ## Similar Work
 
 * [jasmine-focused](https://github.com/atom/jasmine-focused)
