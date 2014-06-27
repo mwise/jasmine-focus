@@ -16,11 +16,9 @@ include the boot.js file:
   <script type="text/javascript" src="lib/jasmine-2.0.0/boot.js"></script>
 ```
 
-2. Modify boot.js to call `jasmineRequire.enableFocusTagging()` (see line 164 of
-   the /example/lib/jasmine-2.0.0/boot.js)
+2. Modify boot.js to call `jasmineRequire.enableFocusTagging()` (see /example/lib/jasmine-2.0.0/boot.js)
 
-3. Replace the `env.execute()` with `env.executeFiltered()` in boot.js (see line
-   178 of the /example/lib/jasmine-2.0.0/boot.js)
+3. Replace the `env.execute()` with `env.executeFiltered()` in boot.js (see /example/lib/jasmine-2.0.0/boot.js)
 
 ## Usage
 
@@ -80,10 +78,9 @@ Jasmine 2.0 standalone distribution.
 ## Similar Work
 
 * [jasmine-focused](https://github.com/atom/jasmine-focused)
-  This is a node-module specific implementation of Jasmine focused execution.
+  This is a node-module-specific implementation of Jasmine focused execution.
 
 ## Acknowledgements
 
 The guts of this library were taken more or less directly from the
 [Karma](https://github.com/karma-runner/karma) project.
-
